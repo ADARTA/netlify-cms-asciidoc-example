@@ -1,0 +1,45 @@
+{
+  "backend": {
+    "name": "test-repo"
+  },
+  "display_url": "https://netlify-cms-react-example.netlify.com",
+  "media_folder": "starter/slides/images",
+  "public_folder": "/images",
+  "collections": [{
+    "name": "presentations",
+    "label": "Presentations",
+    "files": [{
+      "file": "starter/README.adoc",
+      "name": "readme",
+      "label": "README Presentation",
+      "extension": "adoc",
+      "format": "yaml-frontmatter",
+      "frontmatter_delimiter": "////",
+      "fields": [{
+        "name": "title",
+        "label": "Title",
+        "widget": "string"
+      }, {
+        "name": "body",
+        "label": "Slides",
+        "widget": "markdown"
+      }]
+    }]
+  }, {
+    "folder": "starter/slides",
+    "name": "presentations",
+    "label": "Default Presentation",
+    "extension": "adoc",
+    "format": "yaml-frontmatter",
+    "frontmatter_delimiter": "////",
+    "fields": [{
+      "name": "title",
+      "label": "Title",
+      "widget": "string"
+    }, {
+        "name": "body",
+        "label": "Slides",
+        "widget": "markdown"
+      }]
+  }]
+}

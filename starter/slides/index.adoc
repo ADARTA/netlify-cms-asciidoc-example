@@ -1,0 +1,18 @@
+////
+title: Reveal.js Starter Presentation
+////
+= Reveal.js Starter Presentation
+:imagesdir: images
+
+== Topic Slide
+
+== Key Points
+[%step]
+* First major point
+* Second semi-small point
+* Final large point
+
+== !
+image::html5.svg[]
+
+== The End

@@ -1,0 +1,3 @@
+[build]
+  command = "bundle exec asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0 ./**/*.adoc"
+  publish = "slides"
