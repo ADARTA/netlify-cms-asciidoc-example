@@ -19,6 +19,7 @@ class NetlifyCMS extends Component {
     }
     CMS.init({config});
     CMS.registerPreviewTemplate('presentations', SlidesPreview);
+    CMS.registerPreviewTemplate('readme', SlidesPreview);
   }
   render() {
     return (

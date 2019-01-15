@@ -6,15 +6,15 @@
   "media_folder": "starter/slides/images",
   "public_folder": "/images",
   "collections": [{
-    "name": "presentations",
+    "name": "readme",
     "label": "Presentations",
+    "extension": "adoc",
+    "format": "yaml-frontmatter",
+    "frontmatter_delimiter": "////",
     "files": [{
       "file": "starter/README.adoc",
       "name": "readme",
       "label": "README Presentation",
-      "extension": "adoc",
-      "format": "yaml-frontmatter",
-      "frontmatter_delimiter": "////",
       "fields": [{
         "name": "title",
         "label": "Title",

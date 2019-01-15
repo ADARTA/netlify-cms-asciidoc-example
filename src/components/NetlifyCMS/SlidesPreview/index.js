@@ -134,40 +134,7 @@ const ending = `
   });
 </script>
 `
-const content = `
-<div class="reveal">
-<div class="slides">
-  <section class="title" data-state="title">
-    <h1>Reveal.js Starter Presentation</h1>
-  </section>
-  <section id="topic_slide">
-    <h2>Topic Slide</h2>
-  </section>
-  <section id="key_points">
-    <h2>Key Points</h2>
-    <div class="ulist">
-      <ul>
-        <li class="fragment">
-          <p>First point</p>
-        </li>
-        <li class="fragment">
-          <p>Second point</p>
-        </li>
-        <li class="fragment">
-          <p>Final point</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-  <section>
-    <div class="imageblock" style=""><img src="images/html5.svg" alt="html5"></div>
-  </section>
-  <section id="the_end">
-    <h2>The End</h2>
-  </section>
-</div>
-</div>
-`
+
 export default class SlidesPreview extends React.Component {
   render () {
     // const data = this.props.entry.toJS().data // This or next line
@@ -178,7 +145,7 @@ export default class SlidesPreview extends React.Component {
       <PreviewWrapper
         innerStyles={""}
         // innerHTML={`${beginning}${previewHTML}${ending}`}
-        innerHTML={`${content}`}
+        innerHTML={`${previewHTML}`}
       />
     )
   }
