@@ -1,0 +1,4 @@
+[build]
+  command = "yarn build:slides"
+  publish = "starter/slides"
+  base = "starter"

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build:docs": "cd starter && bundle exec asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0 slides/*.adoc",
+    "build:slides": "cd starter && bundle exec asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0 ./**/*.adoc",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
