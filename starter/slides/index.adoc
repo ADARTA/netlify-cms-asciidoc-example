@@ -1,18 +1,54 @@
 ////
-title: Reveal.js Starter Presentation
+title: NetlifyCMS and AsciiDoctor Reveal.js
 ////
-= Reveal.js Starter Presentation
+[transition=zoom, %notitle]
+= NetlifyCMS and AsciiDoctor Reveal.js Slide Creator
 :imagesdir: images
 
-== Topic Slide
+== This slide source
+[source,adoc]
+-----------------
+[transition=zoom, %notitle]
+= NetlifyCMS and AsciiDoctor Reveal.js Slide Creator
+:imagesdir: images
 
-== Key Points
+== Netlify CMS
 [%step]
-* First major point
-* Second semi-small point
-* Final large point
+* Edits a collection of presentations
+* These presentations stored in `.adoc` files
+* Commits to git trigger your build on Netlify
+
+=== !
+image::netlify.svg[alt="Netlify",width=200,height=200]
+
+== Netlify (https://asciidoctor-slides.netlify.com/)
+[%step]
+* Asciidoctor project using Reveal.js (asciidoctor-revealjs)
+* Netlify uses `gemfile` and `gemfile.lock` to create build env
+* `bundle exec asciidoctor-revealjs ...` command to build
+* Deploys the `slides` collection path
+* Builds in seconds
+
+
+== Hope you can use it!
+-----------------
+
+== Netlify CMS
+[%step]
+* Edits a collection of presentations
+* These presentations stored in `.adoc` files
+* Commits to git trigger your build on Netlify
+
+
+== Netlify (https://asciidoctor-slides.netlify.com/)
+[%step]
+* Asciidoctor project using Reveal.js (asciidoctor-revealjs)
+* Netlify uses `gemfile` and `gemfile.lock` to create build env
+* `bundle exec asciidoctor-revealjs ...` command to build
+* Deploys the `slides` collection path
+* Builds in seconds
 
 == !
-image::html5.svg[]
+image::netlify.svg[alt="Netlify",width=200,height=200]
 
-== The End
+== Hope you can use it!
