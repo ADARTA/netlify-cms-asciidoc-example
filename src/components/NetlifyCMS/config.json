@@ -2,12 +2,12 @@
   "backend": {
     "name": "test-repo"
   },
-  "display_url": "https://netlify-cms-react-example.netlify.com",
+  "display_url": "https://asciidoctor-slides.netlify.com",
   "media_folder": "starter/slides/images",
   "public_folder": "/images",
   "collections": [{
-    "name": "readme",
-    "label": "Presentations",
+    "name": "static",
+    "label": "Introduction",
     "extension": "adoc",
     "format": "yaml-frontmatter",
     "frontmatter_delimiter": "////",
@@ -28,10 +28,11 @@
   }, {
     "folder": "starter/slides",
     "name": "presentations",
-    "label": "Default Presentation",
+    "label": "Presentation",
     "extension": "adoc",
     "format": "yaml-frontmatter",
     "frontmatter_delimiter": "////",
+    "create": true,
     "fields": [{
       "name": "title",
       "label": "Title",
