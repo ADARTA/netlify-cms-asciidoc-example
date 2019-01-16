@@ -1,3 +1,5 @@
+# This netlify.toml is the current setup on the Netlify site for this repository
+#   since it is not in the root of the repository, it is ignored
 [build]
   base = "starter"
   command = "bundle exec asciidoctor-revealjs -a revealjsdir=https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0 ./**/*.adoc"
